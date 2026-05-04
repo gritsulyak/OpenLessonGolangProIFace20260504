@@ -14,4 +14,9 @@ func main() {
 	fmt.Printf("%#v, %T\n", s2, s2)
 	s2 = S{}
 	fmt.Printf("%#v, %T\n", s2, s2)
+
+	a := struct{}{}
+	b := struct{}{}
+	fmt.Println(&a == &b)
+
 }
